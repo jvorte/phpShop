@@ -3,24 +3,32 @@
 
 
 * {
-    font-family: "Mona Sans", sans-serif;
-    font-optical-sizing: auto;
-    color: rgb(92, 85, 85);
-  }
+  font-family: "Mona Sans", sans-serif;
+  font-optical-sizing: auto;
+  color: rgb(92, 85, 85);
+}
 
 .mainTile {
-    font-family: "Great Vibes", cursive;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 8vw;
-    color: rgb(92, 85, 85);
-  }
-  .imgTitle{
-    width: 12vw;
-    max-width: 200px;
-    height: auto;
-  }
-  .paragraphTitle{
-    font-size: 1.3vw;
-  }
+  font-family: "Great Vibes", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 8vw;
+  color: rgb(92, 85, 85);
+}
 
+.imgTitle {
+  width: 12vw;
+  max-width: 200px;
+  height: auto;
+}
+
+.paragraphTitle {
+  font-size: 1.3vw;
+}
+
+a:hover {
+  background-color: #9b9791;
+  font-size: 18px;
+  border-radius: 8px;
+
+}
