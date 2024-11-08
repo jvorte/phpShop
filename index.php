@@ -1,25 +1,23 @@
 <?php include 'includes/nav.php'; ?>
 
-       <!-- title section -->
-       <div class="container">
-             <h1 class="text-center mt-5 mainTile">
-        SuperTshirt
-        <span
-          ><img
-            class="imgTitle"
-            src="assets\img\Hawaiian-Flower.png"
-            alt=""
-            srcset=""
-        /></span>
-      </h1>
-      <!--end  title section -->
+<!-- title section -->
+<div class="container">
+  <h1 class="text-center mt-5 mainTile">
+    SuperTshirt
+    <span><img
+        class="imgTitle"
+        src="assets\img\Hawaiian-Flower.png"
+        alt=""
+        srcset="" /></span>
+  </h1>
+  <!--end  title section -->
 
-      <!--paragraph title section -->
-      <h5 class="text-center paragraphTitle">
-        Lorem ipsum dolor sit amet consectetut.
-      </h5>
-      <!--end paragraph  title section -->
-             </div>
+  <!--paragraph title section -->
+  <h5 class="text-center paragraphTitle">
+    Lorem ipsum dolor sit amet consectetut.
+  </h5>
+  <!--end paragraph  title section -->
+</div>
 
 <!-- 2. container -->
 <div class="container ">
