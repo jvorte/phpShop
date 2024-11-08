@@ -28,7 +28,14 @@
 
 a:hover {
   background-color: #9b9791;
-  font-size: 18px;
+
   border-radius: 8px;
 
+}
+.card{
+float: inline-start;
+
+}
+footer{
+  clear: both;
 }
