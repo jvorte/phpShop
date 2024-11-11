@@ -74,15 +74,17 @@ session_start();
           <div class="d-flex" role="login">
             <?php
             if (isset($_SESSION["username"]) && $_SESSION["password"] == '41781978') {
-            ?>  <a href="" class="btn ">Admin </a>   <a href="./loginSystem/logout.php" class="btn "> Sign Out</a> <?php
-                                        } elseif (isset($_SESSION["username"])) {
-                                          ?> <p>Hi, <b><?php
-                                          echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to our site.
-                                            <a href="./loginSystem/logout.php"> Sign Out</a><?php
-                                                            } else { ?>
-                                                            <a href="./loginSystem/login.php" class="btn btn-outline-danger" type="submit"> Login </a>
-                                                            <a href="./loginSystem/register.php" class="btn ">or Register</a>
-                                                          <?php } ?>
+            ?>  <a href="./admin/main.php" class="btn ">Admin </a> 
+                 <a href="./loginSystem/logout.php" class="btn "> Sign Out</a> 
+            <?php
+                } elseif (isset($_SESSION["username"])) {
+                  ?> <p>Hi, <b><?php
+                  echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to our site.
+                    <a href="./loginSystem/logout.php"> Sign Out</a><?php
+                          } else { ?>
+                          <a href="./loginSystem/login.php" class="btn btn-outline-danger" type="submit"> Login </a>
+                          <a href="./loginSystem/register.php" class="btn ">or Register</a>
+                        <?php } ?>
 
             </p>
 
